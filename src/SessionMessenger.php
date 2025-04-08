@@ -11,7 +11,7 @@ use SilverStripe\Core\Config\Configurable;
 use SilverStripe\Core\Injector\Injectable;
 
 /**
- * Centeral config holder for SessionMessenger
+ * Central config holder for SessionMessenger
  *
  * @author ilateral http://www.ilateral.co.uk
  * @package SessionMessenger
@@ -116,7 +116,7 @@ class SessionMessenger
 
         return "";
     }
-    
+
     /**
      * Set a flash message that will be rendered via a template
      *
@@ -192,7 +192,7 @@ class SessionMessenger
      * Get the currently active controller
      *
      * @return  Controller
-     */ 
+     */
     public function getCurrController()
     {
         return $this->curr_controller;
@@ -202,7 +202,7 @@ class SessionMessenger
      * @param Controller $curr_controller
      *
      * @return self
-     */ 
+     */
     public function setCurrController(Controller $controller)
     {
         $this->curr_controller = $controller;

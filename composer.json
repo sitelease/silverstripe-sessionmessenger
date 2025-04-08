@@ -1,6 +1,6 @@
 {
-  "name": "i-lateral/silverstripe-sessionmessenger",
-  "description": "A session based message notification for Silverstripe templates",
+    "name": "i-lateral/silverstripe-sessionmessenger",
+    "description": "A session based message notification for Silverstripe templates",
     "type": "silverstripe-vendormodule",
     "homepage": "http://github.com/i-lateral/silverstripe-sessionmessenger",
     "keywords": [

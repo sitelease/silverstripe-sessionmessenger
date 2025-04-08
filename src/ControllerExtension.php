@@ -22,7 +22,7 @@ class ControllerExtension extends Extension
     }
 
     /**
-     * Proxy to new session messenger (to retain backwards compatability)
+     * Proxy to new session messenger (to retain backwards compatibility)
      *
      * @return self
      */
