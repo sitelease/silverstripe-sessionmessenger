@@ -111,7 +111,7 @@ class SessionMessenger
         if (!empty($message) && is_array($message)) {
             $session->clear($session_ident);
             $array = ArrayData::create($message);
-            return $array->renderWith(static::class);
+            return $array->renderWith('ilateral\SilverStripe\SessionMessenger\SessionMessage');
         }
 
         return "";
