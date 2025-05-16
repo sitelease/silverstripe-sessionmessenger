@@ -13,6 +13,10 @@ use SilverStripe\Control\Controller;
  */
 class ControllerExtension extends Extension
 {
+    private static $casting = [
+        "SessionMessage" => "HTMLText",
+    ];
+
     public function getSessionMessager()
     {
         /** @var Controller */
