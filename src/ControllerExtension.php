@@ -36,7 +36,7 @@ class ControllerExtension extends Extension
         $messenger = $this->getOwner()->getSessionMessager();
         $messenger->setSessionMessage($type, $message);
 
-        return $this;
+        return $this->owner;
     }
 
     /**
